@@ -1,0 +1,12 @@
+<view class="container">
+<image src="/images/indexBackground.png" class = "indexImages"></image>
+  <view class="button">
+    <button class="{{isFinished?'isFinished':'unFinished'}}" size="mini" bindtap='buttonFinished'>已完成</button>
+    <button class="{{isFinished?'unFinished':'isFinished'}}" size="mini" bindtap='buttonUnFinished'>未完成</button>
+  </view>
+  <view class="list">
+    <text>add list here</text>
+    <text>add list here</text>
+    <text>add list here</text>
+  </view>
+</view>

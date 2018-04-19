@@ -1,0 +1,23 @@
+.indexImages{
+  flex-direction: column;
+  width: 100%;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+}
+.isFinished {
+  color: white;
+  background: black;
+}
+.unFinished{
+  color: black;
+  background: white;
+}
+.list{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
